@@ -12,6 +12,7 @@ function obtenerTareas() {
   return tareas;
 }
 
+// Forma antigua (antes de ES6 (antes del 2015))
 module.exports = {
   agregarTarea: agregarTarea,
   borrarTareas: borrarTareas,
