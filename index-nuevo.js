@@ -1,5 +1,5 @@
 import {
   mostrarTareas,
-} from "./nuevo-js/src/dom/dom.js";
+} from "./src/dom.js";
 
 mostrarTareas();

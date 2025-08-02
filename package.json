@@ -8,8 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "esbuild": "0.25.8"
-  }
+  "license": "ISC"
 }

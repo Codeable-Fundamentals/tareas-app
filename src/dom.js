@@ -2,7 +2,7 @@ import {
   obtenerTareas,
   agregarTarea,
   eliminarTareas,
-} from "../tareas/tareas.js";
+} from "./tareas.js";
 
 let input = document.getElementById("nueva-tarea");
 let buttonAgregar = document.getElementById("agregar");

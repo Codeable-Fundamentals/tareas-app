@@ -1,4 +1,4 @@
-let tareas = ["tarea 1", "tarea 2", "tarea 3", "tarea 5", "teras 6"];
+let tareas = ["tarea 1", "tarea 2", "tarea 3", "tarea 5"];
 
 function agregarTarea(tarea) {
   tareas.push(tarea);
