@@ -1,16 +1,16 @@
-let tareas = ["tarea 1", "tarea 2", "tarea 3", "tarea 5"];
+let tareas = ["tarea 1", "tarea 2", "tarea 3", "tarea 5", "teras 6"];
 
 function agregarTarea(tarea) {
   tareas.push(tarea);
 }
 
-function eliminarTarea() {
+function eliminarTareas() {
   tareas = [];
 }
 
-function obtenerTarea() {
+function obtenerTareas() {
   return tareas;
 }
 
 // forma moderna apartir de ES6 (2015 en adelante)
-export { agregarTarea, eliminarTarea, obtenerTarea };
+export { agregarTarea, eliminarTareas, obtenerTareas };
