@@ -2,17 +2,19 @@ import { mostrarTareas } from "./src/dom.js";
 
 mostrarTareas();
 
+let test = document.documentElement;
+let head = document.head;
+let body = document.body;
+console.log(head.childNodes)
+
 let description = document.getElementById("descripcion");
 let parrafo = document.querySelector("p");
+description.style.color = "blue";
 
-console.log("que hay?", description);
-console.log("que selecionaste???", parrafo)
+let buttonGoHome = document.getElementById("ir-a-casa");
 
-description.style.color = "blue"
+function saludar() {
+  window.location.href = "https://codeable.la";
+}
 
-console.log("aue es window.document: ", window.document)
-// window.alert("hola!!!!")
-
-// function saludar(){}
-
-// console.log("respuesta: ", saludar === window.saludar);
+buttonGoHome.onclick = saludar;
